@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoship | Drivers</title>
+    
+      <link rel="stylesheet" href="style-vozaci.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui.theme.min.css">
+
+
+</head>
+<body>
+   <section id="navbar">
+       <div class="container">
+       <div class="left-side">
+        <img src="vozaciImg/autoship-logo.png" alt="" style="float:left;" class="logo">
+        </div>
+        <div class="middle">
+        
+            <div class="nav-link" >
+            <a href="" class="a-tag"><img src="vozaciImg/kamion.png" alt="" class="slika"> <span>Find shipments</span></a>
+            </div>
+              <div class="nav-link">
+            <a href="" class="a-tag"><img src="vozaciImg/offer.png" alt="" class="slika"><span>Sent offers</span></a>
+            </div>
+              <div class="nav-link">
+           <a href="" class="a-tag"><img src="vozaciImg/dijamant.png" alt="" class="slika"><span>Premium</span></a>
+            </div>
+              <div class="nav-link">
+             <a href="" class="a-tag"><img src="vozaciImg/settings.png" alt="" class="slika"><span>Settings</span></a>
+            </div>
+         
+           </div>
+        <div class="right-side" style="float:left;">
+           <div class="message">
+              <div class="first-img" >
+               <img src="vozaciImg/message-icon.png" alt="" class="message-pic">
+               <img src="vozaciImg/plava-notifikacija.png" alt="" class="one">
+               </div>
+               <div class="second" >
+               <img src="vozaciImg/zvono.png" alt="" class="zvono-pic">
+               <img src="vozaciImg/plava-notifikacija.png" alt="" class="two">
+               </div>
+                </div>
+                </div>
+         <div class="profile" style="float: left; display: flex; ">
+          <div class="profile-pic"  >
+              
+              <img src="vozaciImg/covjek.png" alt="" style="margin-top: 34px; margin-left: 90px;">
+               </div>
+               <div class="profile-text"  >
+              <a class="child" style="position: relative; top: 53px; left: 14px; text-decoration: none;">John Thompson <span class="fas fa-angle-down child"></span></a>
+               <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <style>
+                
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #ffffff;
+                    min-width: 230px;
+                    overflow: auto;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                    margin-top: 99px;
+                }
+
+                .dropdown-content a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                
+                .show {display: block !important;}
+             </style>
+            
+              
+            
+       
+       </div>
+       <br>
+       <br>
+       <br>
+
+      
+       <div class="mobilnaNavigacijskaTraka">
+	<div class="navContent">
+		
+		<div class="desnaStrana2" >
+			<img src="vozaciImg/burgerica.png" width="40px" height="40px" style="margin-top: 40px">
+		</div>
+	</div>
+	<div class="otvoreniLinkovi hidden" style="background-color:#ffffff; padding-bottom: 30px; padding-top: 20px; ">
+		<div class="menuLinkovi specMenu" style="margin-left: 50px;">
+			
+			<div><a href="#">FIND SHIPMENTS</a></div>
+			<div><a href="#">SENT OFFERS</a></div>
+			<div><a href="#">PREMIUM</a></div>
+			<div><a href="/news" class="zadnji">SETTINGS</a></div>
+			<div style="padding-top:1px; display: inline-block !important;">
+			<img src="vozaciImg/message-icon.png" alt="" class="message-pic" >
+               <img src="vozaciImg/plava-notifikacija.png" alt="" class="one">
+              
+                   <img src="vozaciImg/zvono.png" alt="" class="zvono-pic" style="color: white; position: relative; top: 7px;">
+               <img src="vozaciImg/plava-notifikacija.png" alt="" class="two" style="position: relative; top: -14px;">
+               </div>
+               <div class="profile-text"  >
+              <a href="/login.html" style="position: relative; top: 3px; left: 1px; text-decoration: none;">John Thompson <span class="fas fa-angle-down"></span></a>
+              
+            </div>
+            
+               
+               
+		</div>
+
+	</div>
+
+       
+       
+        </div>
+       </div>
+    </section>
+   
+    <section id="filters" style=" background-color: #ffffff;">
+        <div class="filter-content" >
+        <div class="filter-naslov">
+           <h2 class="filter">Filters</h2>
+            <h2 class="clear"> <span>Clear</span></h2>            
+        </div>
+        
+        <div class="pickup">
+        <div class="pickup-input-naslov">
+            <h2>Pickup</h2>
+            <h4>Add more</h4>
+        </div>
+       <div class="pickup-input">
+           <input type="text" placeholder="Sarajevo, Bosnia and Herzeg"><img src="vozaciImg/message-location-icon.png" alt="">
+       </div>
+       <div class="range-slider">
+         <div class="range-numbers">
+          <a style="float: left;" class="first-range">1km</a>
+          <a style="float: right;" class="second-range">20km</a>
+          </div>
+          <p style="font-size: 11px; font-weight: 600; padding-top:4px;"><span id="myValue"></span></p>
+           <input type="range" min="1" max="20" value="10" class="slider" id="myRange">
+           
+       </div>
+       <div class="delivery">
+          
+          <div class="delivery-naslov">
+              <h2>Delivery</h2>
+              <h2 style="float: right"><span>Add more</span></h2>
+          </div>
+          
+          <div class="delivery-input">
+              <input type="text" placeholder="Anywhere"> <img src="vozaciImg/flag-icon.png" alt="">
+          </div>
+           
+       </div>
+        </div>
+        
+        <div class="start-date">
+           <div class="start-date-choose">
+              <h2>Start Date</h2>
+               
+               </div>
+               <div class="start-date-input">
+                   <input type="text" placeholder="Choose Date" name="date-picker" value="Select Date" id="datepicker" ng-required="true"> <span class="fas fa-calendar-alt"></span>
+               </div>
+           
+           
+           <div class="due-date-choose">
+               <h2>Due date</h2>
+           </div>
+            
+            <div class="due-date-input">
+            <input type="text" placeholder="Choose Date" name="date-picker" value="Select Date" id="duedatepicker" ng-required="true"> <span class="fas fa-calendar-alt"></span>
+        </div>
+        
+        <div class="tomorrow">
+           <a class="first" href="#"> Tomorrow</a>
+           
+           <a class="second" href="#">+3</a>
+           <a class="third" href="#">+5</a>
+        </div>
+        </div>
+                
+        <div class="category">
+            <div class="category-naslov">
+                <h2>Category</h2>
+            </div>
+            <div class="checkbox">
+                <div class="first-side-box">
+                    <div class="first-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Hatchback</a>
+                    </div>
+                    
+                    <div class="second-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">MPV</a>
+                    </div>
+                    
+                    <div class="third-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Pickup</a>
+                    </div>
+                </div>
+                <div class="second-side-box">
+                    
+                    <div class="fourth-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Sedan</a>
+                    </div>
+                     
+                    <div class="fifth-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">SUV</a>
+                    </div>
+                     
+                    <div class="six-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Van</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="weight">
+            
+            <div class="weight-naslov">
+              <h2>Weight</h2>
+            </div>
+            
+            <div class="weight-input">
+                <input class="first-input" type="text" placeholder="Min" id="weightcount" value="Min">
+               <a href="#">-</a>
+                <input type="text" class="second-input" placeholder="Max" id="weightcount" value="Max">
+                <img src="vozaciImg/weight-icon.png" alt="" class="first-weight"> 
+                <img src="vozaciImg/weight-icon.png" alt="" class="second-weight"> 
+
+            </div>
+        </div>
+         </div>     
+              <div class="sideMenuTraka"  >
+	<div class="glavniContent">
+		
+		<div id="lijeviBurger" class="lijevaStrana"  >
+			<img src="vozaciImg/burgerica.png" width="40px" height="40px" style="margin-top:20px;margin-left: 15px;">
+		</div>
+	</div>
+	<div class="otvoreniLink sakrij" style="background-color: white; padding-bottom: 30px; padding-top: 20px; width: 450px; ">
+		<div class="menuLink spec" style="margin-left: 0px;">
+			
+			    <div class="filter-naslov">
+           <h2 class="filter">Filters</h2>
+            <h2 class="clear"> <span>Clear</span></h2>            
+        </div>
+        
+        <div class="pickup">
+        <div class="pickup-input-naslov">
+            <h2>Pickup</h2>
+            <h4>Add more</h4>
+        </div>
+       <div class="pickup-input">
+           <input type="text" placeholder="Sarajevo, Bosnia and Herzeg"><img src="vozaciImg/message-location-icon.png" alt="">
+       </div>
+       <div class="range-slider">
+         <div class="range-numbers">
+          <a style="float: left;" class="first-range">1km</a>
+          <a style="float: right;" class="second-range">20km</a>
+          </div>
+          <p style="font-size: 11px; font-weight: 600; padding-top:4px;"><span id="myValueMobile"></span></p>
+           <input type="range" min="1" max="20" value="10" class="slider" id="myRangeMobile">
+       </div>
+       <div class="delivery">
+           
+          <div class="delivery-naslov">
+              <h2>Delivery</h2>
+              <h2 style="float: right"><span>Add more</span></h2>
+          </div>
+          
+          <div class="delivery-input">
+              <input type="text" placeholder="Anywhere"> <img src="vozaciImg/flag-icon.png" alt="">
+          </div>
+           
+       </div>
+        </div>
+        
+        <div class="start-date">
+           <div class="start-date-choose">
+              <h2>Start Date</h2>
+               
+               </div>
+               <div class="start-date-input">
+                   <input type="text" placeholder="Choose Date" name="date-picker" value="Select Date" id="datepickerMobile" ng-required="true"> <span class="fas fa-calendar-alt"></span>
+               </div>
+           
+           
+           <div class="due-date-choose">
+               <h2>Due date</h2>
+           </div>
+            
+            <div class="due-date-input">
+            <input type="text" placeholder="Choose Date" name="date-picker" value="Select Date" id="duedatepickerMobile" ng-required="true"> <span class="fas fa-calendar-alt"></span>
+        </div>
+        
+        <div class="tomorrow">
+           <a class="first" href="#"> Tomorrow</a>
+           
+           <a class="second" href="#">+3</a>
+           <a class="third" href="#">+5</a>
+        </div>
+        </div>
+                
+        <div class="category">
+            <div class="category-naslov">
+                <h2>Category</h2>
+            </div>
+            <div class="checkbox">
+                <div class="first-side-box">
+                    <div class="first-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Hatchback</a>
+                    </div>
+                    
+                    <div class="second-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">MPV</a>
+                    </div>
+                    
+                    <div class="third-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Pickup</a>
+                    </div>
+                </div>
+                <div class="second-side-box">
+                    
+                    <div class="fourth-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Sedan</a>
+                    </div>
+                     
+                    <div class="fifth-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">SUV</a>
+                    </div>
+                     
+                    <div class="six-car">
+                        <input type="checkbox" class="regular-checkbox" > <a href="#">Van</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="weight">
+            
+            <div class="weight-naslov">
+              <h2>Weight</h2>
+            </div>
+            
+            <div class="weight-input">
+                <input class="first-input" type="text" placeholder="Min" id="weightcount" value="Min">
+               <a href="#">-</a>
+                <input type="text" class="second-input" placeholder="Max" id="weightcount" value="Max">
+                <img src="vozaciImg/weight-icon.png" alt="" class="first-weight"> 
+                <img src="vozaciImg/weight-icon.png" alt="" class="second-weight"> 
+
+            </div>
+        </div>
+			
+               
+               
+		</div>
+
+	</div>
+
+       
+       
+        </div>
+        
+               
+    </section>
+    
+    <section id="shipments"   style="overflow-x:auto; overflow-y: hidden; background-color: #ffffff;">
+         <table>
+        <div class="shipments-naslov">
+            <span class="current">Current shipments</span>
+            <span class="view">VIEW</span>
+        </div>
+        
+        <div class="shipments-par">
+            <span>There is 24 results that matches to your search criteria.</span>
+            
+         <i  class="far fa-map"></i>   <i class="fas fa-list" ></i> 
+            
+        </div>
+        
+        <div class="views-hidden" style="visibility: hidden;">
+            <i  class="far fa-map"></i>   <i class="fas fa-list" ></i>
+        </div>
+       
+        <div class="car-infos">
+           
+            <div class="first-car-info">
+                <div class="automobil1" style="display: block; float: left;">
+                    <img src="vozaciImg/auto.png" alt="">
+                </div>
+                
+                <div class="auto1-info">
+                    <div class="auto1-naslov">
+                        <h2> Volkswagen Tiguan</h2>
+                    </div>
+                    
+                    <div class="auto1-informacije">
+                        <i class="far fa-user"></i> <span>John Doe</span>
+                        <i class="fas fa-check"></i> <span class="user">Verified User</span>
+                        <i class="fas fa-fire"></i> <span>High priority</span>
+                    </div>
+                    
+                    <div class="button-info">
+                        <a class="name" href="#">SUV</a> <i class="fas fa-car"></i>
+                        
+                        <a class="kg" href="#"> 1,415kg</a> <i class="fas fa-weight"></i>
+                        
+                        <a class="drivable" href="#">non-drivable</a> <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+                
+                <div class="pickup-info-pult">
+                   
+                   <div class="pickup-info-naslov">
+                       <h2>Pickup</h2>
+                   </div>
+                   
+                   <div class="pickup-zagreb">
+                       <i class="fas fa-location-arrow"></i> 
+                       <span>Zagreb, CRO</span>
+                   </div>
+                   
+                   <div class="pickup-datum">
+                       <span>9.3 - 11.3.2018.</span>
+                   </div>
+                    
+                </div>
+                
+                <div class="delivery-info-pult">
+                    <div class="delivery-info-naslov">
+                        <h2>Delivery</h2>
+                    </div>
+                    <div class="delivery-sar">
+                        <i class="fas fa-flag-checkered"></i>
+                        <span>Sarajevo, BA</span>
+                    </div>
+                    
+                    <div class="delivery-datum">
+                        <span>12.3.2018.</span>
+                    </div>
+                </div>
+                
+                <div class="offer-info-pult">
+                    <div class="offer-naslov">
+                        <h2>Last offer</h2>
+                    </div>
+                    <div class="offer-num">
+                       <h2>450 &euro;</h2>
+                    </div>
+                    
+                    <div class="offer-bid">
+                       <a href="#">BID</a>
+                    </div>
+                     <i class="fas fa-gavel"></i>
+                </div>
+            </div>
+            <br>
+            <div class="first-car-info">
+                <div class="automobil1" style="display: block; float: left;">
+                    <img src="vozaciImg/auto.png" alt="">
+                </div>
+                
+                <div class="auto1-info">
+                    <div class="auto1-naslov">
+                        <h2> Volkswagen Tiguan</h2>
+                    </div>
+                    
+                    <div class="auto1-informacije">
+                        <i class="far fa-user"></i> <span>John Doe</span>
+                        <i class="fas fa-check"></i> <span class="user">Verified User</span>
+                        <i class="fas fa-fire"></i> <span>High priority</span>
+                    </div>
+                    
+                    <div class="button-info">
+                        <a class="name" href="#">SUV</a> <i class="fas fa-car"></i>
+                        
+                        <a class="kg" href="#"> 1,415kg</a> <i class="fas fa-weight"></i>
+                        
+                        <a class="drivable" href="#">non-drivable</a> <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+                
+                <div class="pickup-info-pult">
+                   
+                   <div class="pickup-info-naslov">
+                       <h2>Pickup</h2>
+                   </div>
+                   
+                   <div class="pickup-zagreb">
+                       <i class="fas fa-location-arrow"></i> 
+                       <span>Zagreb, CRO</span>
+                   </div>
+                   
+                   <div class="pickup-datum">
+                       <span>9.3 - 11.3.2018.</span>
+                   </div>
+                    
+                </div>
+                
+                <div class="delivery-info-pult">
+                    <div class="delivery-info-naslov">
+                        <h2>Delivery</h2>
+                    </div>
+                    <div class="delivery-sar">
+                        <i class="fas fa-flag-checkered"></i>
+                        <span>Sarajevo, BA</span>
+                    </div>
+                    
+                    <div class="delivery-datum">
+                        <span>12.3.2018.</span>
+                    </div>
+                </div>
+                
+                <div class="offer-info-pult">
+                    <div class="offer-naslov">
+                        <h2>Last offer</h2>
+                    </div>
+                    <div class="offer-num">
+                       <h2>450 &euro;</h2>
+                    </div>
+                    
+                    <div class="offer-bid">
+                       <a href="#">BID</a>
+                    </div>
+                     <i class="fas fa-gavel"></i>
+                </div>
+            </div>
+            <br>
+            <div class="first-car-info">
+                <div class="automobil1" style="display: block; float: left;">
+                    <img src="vozaciImg/auto.png" alt="">
+                </div>
+                
+                <div class="auto1-info">
+                    <div class="auto1-naslov">
+                        <h2> Volkswagen Tiguan</h2>
+                    </div>
+                    
+                    <div class="auto1-informacije">
+                        <i class="far fa-user"></i> <span>John Doe</span>
+                        <i class="fas fa-check"></i> <span class="user">Verified User</span>
+                        <i class="fas fa-fire"></i> <span>High priority</span>
+                    </div>
+                    
+                    <div class="button-info">
+                        <a class="name" href="#">SUV</a> <i class="fas fa-car"></i>
+                        
+                        <a class="kg" href="#"> 1,415kg</a> <i class="fas fa-weight"></i>
+                        
+                        <a class="drivable" href="#">non-drivable</a> <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+                
+                <div class="pickup-info-pult">
+                   
+                   <div class="pickup-info-naslov">
+                       <h2>Pickup</h2>
+                   </div>
+                   
+                   <div class="pickup-zagreb">
+                       <i class="fas fa-location-arrow"></i> 
+                       <span>Zagreb, CRO</span>
+                   </div>
+                   
+                   <div class="pickup-datum">
+                       <span>9.3 - 11.3.2018.</span>
+                   </div>
+                    
+                </div>
+                
+                <div class="delivery-info-pult">
+                    <div class="delivery-info-naslov">
+                        <h2>Delivery</h2>
+                    </div>
+                    <div class="delivery-sar">
+                        <i class="fas fa-flag-checkered"></i>
+                        <span>Sarajevo, BA</span>
+                    </div>
+                    
+                    <div class="delivery-datum">
+                        <span>12.3.2018.</span>
+                    </div>
+                </div>
+                
+                <div class="offer-info-pult">
+                    <div class="offer-naslov">
+                        <h2>Last offer</h2>
+                    </div>
+                    <div class="offer-num">
+                       <h2>450 &euro;</h2>
+                    </div>
+                    
+                    <div class="offer-bid">
+                       <a href="#">BID</a>
+                    </div>
+                     <i class="fas fa-gavel"></i>
+                </div>
+            </div>
+            <br>
+            <div class="first-car-info">
+                <div class="automobil1" style="display: block; float: left;">
+                    <img src="vozaciImg/auto.png" alt="">
+                </div>
+                
+                <div class="auto1-info">
+                    <div class="auto1-naslov">
+                        <h2> Volkswagen Tiguan</h2>
+                    </div>
+                    
+                    <div class="auto1-informacije">
+                        <i class="far fa-user"></i> <span>John Doe</span>
+                        <i class="fas fa-check"></i> <span class="user">Verified User</span>
+                        <i class="fas fa-fire"></i> <span>High priority</span>
+                    </div>
+                    
+                    <div class="button-info">
+                        <a class="name" href="#">SUV</a> <i class="fas fa-car"></i>
+                        
+                        <a class="kg" href="#"> 1,415kg</a> <i class="fas fa-weight"></i>
+                        
+                        <a class="drivable" href="#">non-drivable</a> <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+                
+                <div class="pickup-info-pult">
+                   
+                   <div class="pickup-info-naslov">
+                       <h2>Pickup</h2>
+                   </div>
+                   
+                   <div class="pickup-zagreb">
+                       <i class="fas fa-location-arrow"></i> 
+                       <span>Zagreb, CRO</span>
+                   </div>
+                   
+                   <div class="pickup-datum">
+                       <span>9.3 - 11.3.2018.</span>
+                   </div>
+                    
+                </div>
+                
+                <div class="delivery-info-pult">
+                    <div class="delivery-info-naslov">
+                        <h2>Delivery</h2>
+                    </div>
+                    <div class="delivery-sar">
+                        <i class="fas fa-flag-checkered"></i>
+                        <span>Sarajevo, BA</span>
+                    </div>
+                    
+                    <div class="delivery-datum">
+                        <span>12.3.2018.</span>
+                    </div>
+                </div>
+                
+                <div class="offer-info-pult">
+                    <div class="offer-naslov">
+                        <h2>Last offer</h2>
+                    </div>
+                    <div class="offer-num">
+                       <h2>450 &euro;</h2>
+                    </div>
+                    
+                    <div class="offer-bid">
+                       <a href="#">BID</a>
+                    </div>
+                     <i class="fas fa-gavel"></i>
+                </div>
+            </div>
+           
+           
+           
+        </div>
+               <div class="numbers">
+               <button>1</button>
+                <button>2</button>
+               <button>3</button>
+               <button>...</button>
+
+           </div>
+                
+        </table>
+    </section>
+    
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="jquery-ui.min.js"></script>
+
+   <script>
+    $(document).ready( function(){
+ 
+   $('#datepicker').datepicker();
+
+  $('.fa-calendar-alt').on('click', function() {
+    $('#datepicker').datepicker('open');
+  });
+        
+ $('#duedatepicker').datepicker();
+
+  $('.fa-calendar-alt').on('click', function() {
+    $('#duedatepicker').datepicker('open');
+  });
+ 
+    
+});
+
+	
+	$(".desnaStrana2").click(function(){
+		if($(".otvoreniLinkovi").hasClass("hidden")){
+            $('#filters').css('margin-top', '255px');
+            $('#shipments').css('margin-top', '235px');
+			$(".otvoreniLinkovi").removeClass("hidden");
+            
+        }
+		else{
+             $('#filters').css('margin-top', '20px');
+             $('#shipments').css('margin-top', '20px');
+            $(".otvoreniLinkovi").addClass("hidden");
+        }
+			
+	});
+       
+        $('.lijevaStrana').click(function(){
+           if($(".otvoreniLink").hasClass("sakrij")){
+               $('.otvoreniLink').removeClass("sakrij");
+               $('#shipments').css('opacity', '0.2');
+           }else{
+               $(".otvoreniLink").addClass("sakrij");
+                $('#shipments').css('opacity', '1');
+           }
+       });
+       
+          $('#datepickerMobile').datepicker();
+
+  $('.fa-calendar-alt').on('click', function() {
+    $('#datepickerMobile').datepicker('open');
+  });
+        
+         $('#duedatepickerMobile').datepicker();
+
+  $('.fa-calendar-alt').on('click', function() {
+    $('#duedatepickerMobile').datepicker('open');
+  });
+       
+       var slider = document.getElementById("myRange");
+       var output = document.getElementById("myValue");
+       output.innerHTML = slider.value;
+
+       slider.oninput = function() {
+       output.innerHTML = this.value;
+           document.getElementById("myValueMobile").innerHTML=this.value;
+       }
+       
+    document.getElementById('myRangeMobile').oninput = function(){
+        document.getElementById('myValueMobile').innerHTML = this.value;
+        document.getElementById('myValue').innerHTML = this.value;
+    };
+      
+
+
+
+    </script>
+    
+     <script>
+      
+
+        
+       
+        
+        
+           $('.profile-text').click(function(){
+              if($("#myDropdown").hasClass("show")){
+              $('#myDropdown').removeClass("show");
+              
+              }else{
+                 $('#myDropdown').addClass("show");  
+               }
+              
+              
+           }); 
+         
+          // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.profile-text') && !event.target.matches('.child')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                  
+              }
+            }
+          }
+        };
+        
+        </script>
+</body>
+</html>

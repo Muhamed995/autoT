@@ -1,0 +1,628 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#naslovna{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-first{
+    width:38.5%;
+    height: 1080px;
+    float:left;
+    background-image: url(loginImg/autoship-background-slika.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.logo{
+    width: 212px;
+    height: auto;
+    margin-left: 42px;
+    margin-top: 44px;
+}
+
+.naslovna-heading{
+    margin-top: 418px;
+    width: 526px;
+    height: 76px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+} 
+.naslovna-copyright{
+    margin-top: 419px;
+    color: rgba(255,255,255,0.42);
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.73;
+}
+
+.col-md-second{
+    width:61.5%;
+    min-height: 100vh !important;
+    overflow: auto;
+    float: left;
+}
+
+.account-heading{
+    margin-top: 34px;
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+    line-height: 2;
+}
+
+.account-heading a{
+    font-weight: bold;
+    color:#00a3fa;
+    text-decoration: none;
+}
+
+.signin-heading{
+    margin-top:264px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.signin-h2{
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.signin-p{
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #363636;
+    margin-bottom: 40px;
+}
+
+.facebook-button{
+    
+   padding-top: 19px;
+   padding-bottom: 19px;
+    padding-left: 54px;
+    padding-right: 37px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #3b5998;
+    border-radius: 24.5px;
+    text-decoration: none;
+}
+
+.fb-icon{
+  position: relative;
+      right:19px;
+    top:4px;
+}
+
+.facebook-button:hover{
+    background-color: #ffffff;
+    color:#3b5998;
+    border: solid 1px #3b5998;
+    transition: all 0.2s;
+}
+
+.google-button{
+    padding-top: 19px;
+   padding-bottom: 19px;
+    padding-left: 54px;
+    padding-right: 37px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #db4437;
+    text-decoration: none;
+    border-radius: 24.5px;
+}
+
+.google-icon{
+    position: relative;
+    right: 16px;
+    top:4px;
+}
+
+.google-button:hover{
+    background-color: #ffffff;
+    color:#db4437;
+    border:solid 1px #db4437;
+    transition: all 0.2s;
+}
+
+.email-info{
+    margin-top: 86px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #363636;
+}
+.input-box{
+    width:420px;
+    height: 320px;
+    display: block;
+    margin: 40px auto;
+}
+
+.input-box h5{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    color: #7a7a7a;
+    
+}
+
+
+.input-box input{
+    width:92%;
+    height:46px;
+    margin-left:13px;
+    border-radius: 5px;
+    border:1px solid #dfdfdf;
+    padding-left: 20px;
+}
+
+.input-box input:focus{
+    outline-color: white;
+    border: 1px solid #7a7a7a;
+}
+
+
+.forgotten{
+    margin-right: 20px;
+    margin-top: 18px;
+    margin-bottom: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #7a7a7a;
+    
+}
+
+
+.sign-button{
+    display: block;
+    width:92%;
+    height: 48px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    padding-top: 16px;
+    background-color: #00a3fa;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sign-button:hover{
+    background-color: #ffffff;
+    color:#00a3fa;
+    border: solid 1px #00a3fa;
+    transition: all 0.2s;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; }
+
+@media screen and (max-width: 1679px){
+    
+    
+    
+.naslovna-heading{
+    margin-top: 418px;
+    width: 526px;
+    height: 76px;
+    display: block;
+    margin-left: 70px;
+    font-size: 34px;
+   
+} 
+.naslovna-copyright{
+    margin-top: 419px;
+    color: rgba(255,255,255,0.42);
+    margin-left: 70px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.73;
+}
+    
+    .col-md-first{
+        width: 41%;
+    }
+    
+    .col-md-second{
+    width:59%;
+    
+}
+}
+
+@media screen and (max-width: 1441px){
+    .naslovna-heading{
+    width: 450px;
+    height: auto;
+    font-size: 32px;
+    }
+    
+    .naslovna-copyright{
+    
+    margin-left: 70px;
+    font-size: 14px;
+    margin-top: 391px;
+}
+}
+
+
+@media screen and (max-width: 1221px){
+    
+   .logo{
+    width: 212px;
+    height: auto;
+    margin-left: 32px;
+    margin-top: 44px;
+}
+
+.naslovna-heading{
+    width: 450px;
+    height: auto;
+    font-size: 32px;
+    margin-left:30px;
+    }
+    
+    .naslovna-copyright{
+    
+    margin-left: 40px;
+ 
+}
+    
+    }
+
+@media screen and (max-width:1090px){
+    
+    
+    .naslovna-heading{
+    width: 400px;
+    height: auto;
+    font-size: 28px;
+    
+    }
+}
+
+@media screen and (max-width:961){
+    .naslovna-heading{
+        width: 350px;
+        margin-top: 380px;
+        font-size: 25px;
+        width: 360px;
+        margin-left: 20px;
+    }
+    
+      .naslovna-copyright{
+  
+    font-size: 13px;
+    margin-top: 361px;
+}
+}
+
+@media screen and (max-height:920px){
+    .signin-heading{
+    margin-top:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+}
+
+@media screen and (max-width:940px){
+    
+    .col-md-first{
+        display: none;
+        visibility: hidden;
+    }
+    .col-md-second{
+        width: 100%;
+        margin: auto;
+        height: 100vh !Important;
+    }
+}
+
+@media screen and (max-width:491px){
+   
+.facebook-button{
+    width: 130px;
+   
+   padding-top: 17px;
+   padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #3b5998;
+    border-radius: 24.5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  
+    
+}
+
+.fb-icon{
+  position: relative;
+      right:16px;
+    top:4px;
+}
+
+.facebook-button:hover{
+    background-color: #ffffff;
+    color:#3b5998;
+    border: solid 1px #3b5998;
+    transition: all 0.2s;
+}
+
+.google-button{
+     width: 130px;
+   
+    padding-top: 17px;
+   padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #db4437;
+    text-decoration: none;
+    border-radius: 24.5px;
+}
+ 
+    .input-box{
+    width:100%;
+    height: 320px;
+    margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+}
+    
+    .input-box h5{
+    margin-left: 30px;
+   
+    
+}
+    
+    .input-box input {
+        width: 83%;
+        
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    
+.forgotten{
+    margin-right: 38px;
+    }
+    .sign-button{
+        width: 83%;
+    }
+}
+
+@media screen and (max-width:351px) {
+    
+      
+.facebook-button{
+    width: 130px;
+   
+   padding-top: 17px;
+   padding-bottom: 17px;
+    padding-left: 25px;
+    padding-right: 21px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #3b5998;
+    border-radius: 24.5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  
+    
+}
+    
+    .fb-icon{
+  display: none;
+        visibility: hidden;
+}
+    .google-icon{
+        display: none;
+        visibility: hidden;
+    }
+}

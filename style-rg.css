@@ -1,0 +1,1178 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#rg-naslovna{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-first{
+    width:38.5%;
+    height: 1080px;
+    float:left;
+    background-image: url(loginImg/autoship-background-slika.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.logo{
+    width: 212px;
+    height: auto;
+    margin-left: 42px;
+    margin-top: 44px;
+}
+
+.naslovna-heading{
+    margin-top: 418px;
+    width: 526px;
+    height: 76px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    text-shadow: 1px 0.1px 16px rgba(35,31,32,0.29);
+    color: #ffffff;
+} 
+
+ 
+.naslovna-copyright{
+    margin-top: 330px;
+    margin-bottom: 35px;
+    color: rgb(255,255,255);
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.73;
+}
+
+.fb-button{
+    margin-left: 100px;
+    margin-right:17px;
+    padding-top: 17px;
+    
+    padding-bottom: 15.5px;
+    padding-left: 47px;
+    padding-right: 47px;
+    border-radius: 24.5px;
+    background-color: #3b5998;
+    
+}
+
+.google-button{
+    padding-top: 19px;
+    padding-bottom: 17px;
+    border-radius: 24.5px;
+    padding-left: 38px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color:#db4437;
+    text-decoration: none;
+   
+}
+
+.g-ikonica{
+    position: relative;
+    top: 5px;
+    right: 9px;
+}
+
+
+
+.col-md-second{
+    width:61.5%;
+    height: 100vh;
+    float: left;
+}
+
+.account-heading{
+    margin-top: 34px;
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+    line-height: 2;
+}
+
+.account-heading a{
+    font-weight: bold;
+    color:#00a3fa;
+    text-decoration: none;
+}
+
+
+
+.signin-heading{
+    margin-top: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.signin-h2{
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.signin-p{
+    margin-top: 23px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #363636;
+    margin-bottom: 40px;
+}
+
+
+
+.opis-posla{
+    width: 390px;
+    height: 169px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.box-kucice-carriers{
+    width: 167px;
+    height: 131px;
+    border: 1px solid #e5e7e9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 22px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.box-kucica-icon{
+    
+    width: 24px;
+    height: 24px;
+    align-self: flex-end;
+    
+    margin-top: 9px;
+    margin-right: 9px;
+}
+ 
+.box-kucice-shippers{
+    border: 1px solid #e5e7e9;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 167px;
+    height: 131px;
+        margin-top: 13px;
+
+}
+
+.drugi-check{
+    color: #00a3fa;
+}
+
+.box-kucica-slika{
+    align-self: center;
+}
+
+.box-kucica-text{
+    text-align: center;
+    margin: auto;
+}
+
+
+.box-inputi{
+    width: 415px;
+    height: auto;
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+.email-input {
+    width: 380px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #474747;
+}
+.pass-input {
+    width: 380px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #474747;
+}
+
+.labels{
+    width: 100%;
+}
+
+.label-name{
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+.label-surname{
+    display: inline-block;
+    float: left;
+    width: 100px;
+}
+
+.inputs{
+    width: 100%;
+}
+.row1{
+    float: left;
+    width: 50%;
+}
+.row2{
+    float: left;
+    width: 50%;
+}
+
+.input-name{
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 49px;
+    margin-left: 17px;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #474747;
+}
+
+.input-surname{
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    margin-left: 14px;
+    font-size: 15px;
+    color:#474747;
+}
+
+.terms-and-conditions span{
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    width: 385px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #00a3fa;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    position: relative;
+    left: 18px;
+}
+
+.box-inputi label{
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #7a7a7a;
+    margin-top: 30px;
+    margin-bottom: 11px;
+    margin-left: 17px;
+}
+
+.terms-and-conditions{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7a7a7a;
+    margin-bottom: 50px;
+}
+
+input:focus{
+     outline-color: white;
+    border: 1px solid #7a7a7a;
+}
+
+.terms-and-conditions input{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 17px;
+}
+
+.social-network{
+    margin-top: 30px;
+    height: 100px;
+}
+
+
+.social-network h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #7a7a7a;
+    margin-bottom: 35px;
+    visibility: hidden;
+}
+
+.fb{
+  
+    padding: 17px 50px;
+    border-radius: 25px;
+    background-color: #3b5998;
+    margin-right: 10px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+.google{
+    padding: 17px 50px;
+    border-radius: 25px;
+    background-color:#db4437;
+    visibility: hidden;
+}
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; }
+
+@media screen and (max-width: 1650px){
+    
+    .naslovna-heading{
+    width: 476px;
+    height: 76px;
+    margin-left: 40px;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 300;
+   
+} 
+
+ 
+.naslovna-copyright{
+    margin-left: 40px;
+    font-size: 14px;
+    
+}
+    
+    .fb-button{
+    margin-left: 40px;
+    
+}
+
+
+
+}
+ 
+@media screen and (max-width: 1399px){
+    
+    .naslovna-heading{
+    width: 436px;
+    height: 76px;
+    margin-left: 40px;
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: 300;
+   
+} 
+    
+}
+
+@media screen and (max-width: 1290px){
+     .naslovna-heading{
+    width: 386px;
+    height: 76px;
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 29px;
+    font-weight: 300;
+   
+} 
+   
+    .naslovna-copyright{
+    margin-left: 20px;
+    font-size: 14px;
+    
+}
+    
+    .fb-button{
+    margin-left: 20px;
+    
+}
+
+    
+}
+
+@media screen and (max-width: 1010px){
+    
+    .col-md-first{
+        display: none;
+    }
+    
+    .col-md-second{
+    width:100%;
+    height: 1080px;
+   display: block;
+        margin: auto;
+}
+    
+    .social-network h3{
+        visibility: visible;
+    }
+    
+    .fb{
+        visibility: visible;
+    }
+    
+    .google{
+        visibility: visible;
+    }
+    
+    .gikonica{
+        position: relative;
+        top: 3px;
+    }
+    
+    .fikonica{
+        position: relative;
+        top: 3px;
+    }
+    
+}
+
+@media screen and (max-height:1040px){
+    .col-md-second{
+    
+    min-height: 100vh !important;
+    float: left;
+}
+
+
+
+.signin-heading{
+    margin-top: 100px;
+    
+}
+    
+    
+.signin-h2{
+    font-size: 2.8rem;
+    
+}
+
+.signin-p{
+    
+    font-size: 0.9rem;
+    
+}
+
+
+
+
+
+ 
+
+.box-inputi{
+    width: 415px;
+    height: auto;
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+.email-input {
+    width: 380px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 0.9rem;
+    color: #474747;
+}
+.pass-input {
+    width: 380px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 0.9rem;
+    color: #474747;
+}
+
+.labels{
+    width: 100%;
+}
+
+.label-name{
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+.label-surname{
+    display: inline-block;
+    float: left;
+    width: 100px;
+}
+
+.inputs{
+    width: 100%;
+}
+.row1{
+    float: left;
+    width: 50%;
+}
+.row2{
+    float: left;
+    width: 50%;
+}
+
+.input-name{
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 49px;
+    margin-left: 17px;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 0.9rem;
+    color: #474747;
+}
+
+.input-surname{
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    margin-left: 14px;
+    font-size: 0.9rem;
+    color:#474747;
+}
+
+.terms-and-conditions span{
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    width: 385px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #00a3fa;
+    border: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    position: relative;
+    left: 18px;
+}
+
+.box-inputi label{
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #7a7a7a;
+    margin-top: 30px;
+    margin-bottom: 11px;
+    margin-left: 17px;
+}
+
+.terms-and-conditions{
+    margin-top: 26px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #7a7a7a;
+    margin-bottom: 50px;
+}
+
+input:focus{
+     outline-color: white;
+    border: 1px solid #7a7a7a;
+}
+
+.terms-and-conditions input{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 17px;
+}
+
+.social-network{
+    margin-top: 30px;
+    height: 100px;
+}
+
+
+.social-network h3{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #7a7a7a;
+    margin-bottom: 35px;
+    visibility: hidden;
+}
+
+
+
+
+}
+
+@media screen and (max-width:490px){
+    
+    
+.signin-h2{
+    font-size: 42px;
+    font-weight: 300;
+   
+}
+
+.signin-p{
+    margin-top: 23px;
+    font-size: 13px;
+   
+}
+
+.opis-posla{
+    width: 370px;
+    height: 169px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.box-kucice-carriers{
+    width: 147px;
+    height: 131px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 22px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.box-kucica-icon{
+    
+    width: 24px;
+    height: 24px;
+    align-self: flex-end;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+.box-kucice-shippers{
+    border: 1px solid #e5e7e9;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 147px;
+    height: 131px;
+        margin-top: 13px;
+
+}
+
+.box-kucica-slika{
+    align-self: center;
+}
+
+.box-kucica-text{
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    
+}
+
+    .email-input {
+    width: 340px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+.pass-input {
+    width: 340px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+    
+    .box-inputi{
+        width: 350px;
+    }
+    
+    .box-inputi label:nth-child(1){
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #7a7a7a;
+    margin-top: 30px;
+    margin-bottom: 11px;
+    margin-left: 10px;
+}
+    
+    .box-inputi label{
+        margin-left: 10px;
+    }
+    
+    
+
+.input-name{
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 49px;
+    margin-left: 7px;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+
+.input-surname{
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+    
+    .label-surname{
+        text-align: left;
+        margin-left: 20px !important;
+    }
+    
+    .terms-and-conditions{
+        font-size: 13px;
+    margin-left: -10px;
+}
+    
+    
+    
+    
+input[type=submit] {
+    width: 275px;
+    left:37px;
+    
+}
+    
+    .fb{
+        margin-left: 55px;
+    }
+    
+} 
+
+@media screen and (max-width:380px){
+    
+        
+.signin-h2{
+    font-size: 38px;
+    font-weight: 300;
+   
+}
+
+.signin-p{
+    margin-top: 23px;
+    font-size: 12px;
+   
+}
+
+.opis-posla{
+    width: 320px;
+    height: 169px;
+    display: flex;
+    margin: auto;
+    
+}
+    
+
+.box-kucice-carriers{
+    width: 127px;
+    height: 131px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 22px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.box-kucica-icon{
+    
+    width: 24px;
+    height: 24px;
+    align-self: flex-end;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+.box-kucice-shippers{
+    border: 1px solid #e5e7e9;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 127px;
+    height: 131px;
+        margin-top: 13px;
+
+}
+
+.box-kucica-slika{
+    align-self: center;
+}
+
+.box-kucica-text{
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    
+}
+    
+    
+    .email-input {
+    width: 290px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+.pass-input {
+    width: 290px;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+    
+    .box-inputi{
+        width: 350px;
+    }
+    
+    .box-inputi label:nth-child(1){
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #7a7a7a;
+    margin-top: 30px;
+    margin-bottom: 11px;
+    margin-left: 30px !important;
+}
+    
+    .box-inputi label:nth-child(2){
+       position: relative;
+        left: 3px;
+    }
+    
+    .box-inputi label{
+        margin-left: 30px;
+    }
+
+
+.input-name{
+    display: inline-block;
+    float: left;
+    width: 75%;
+    height: 49px;
+    margin-left: 7px;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    font-size: 15px;
+    color: #c7c4c4;
+    margin-left: 30px;
+}
+
+.input-surname{
+    display: inline-block;
+    float: left;
+    width: 75%;
+    height: 49px;
+    margin: auto;
+    border-radius: 5px;
+   border: 1px solid #e5e7e9;
+    padding-left: 19px;
+    margin-left: 13px;
+    font-size: 15px;
+    color: #c7c4c4;
+}
+    
+    .label-surname{
+        text-align: left;
+        margin-left: 0px !important;
+        position: relative;
+        right: 10px;
+    }
+    
+    .terms-and-conditions input{
+        width: 17px;
+        height: 17px;
+    }
+    
+    .terms-and-conditions{
+        font-size: 12px;
+    margin-left: 14px;
+}
+
+    
+}
+
+@media screen and (max-width:354px){
+     .box-inputi{
+        width: 310px;
+    }
+    
+    input[type=submit] {
+        left: 20px;
+        
+    }
+    .fb{
+        margin-left: 35px;
+    }
+}

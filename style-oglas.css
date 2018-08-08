@@ -1,0 +1,1787 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+html,body{
+    width: 100%;
+    max-height: 100vh;
+    
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    float: left;
+}
+
+body {
+    line-height: 1;
+       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'HelveticaNeue';
+    src:local('HelveticaNeue.ttf'), url('HelveticaNeue.ttf') format('truetype');
+
+ }
+
+
+body{
+    max-width: 100%;
+    max-height: 100vh;
+    font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+   background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    
+}
+ #content{
+     max-height: 1080px;
+     display: block;
+ }
+
+
+.container{
+      max-width: 1920px;
+    width: 100%;
+    height: 117px;
+    background-color: #ffffff;
+    padding-top: 0px;
+   display: block;
+    
+  
+    box-shadow: 0px 1px 3px 0 rgba(0,1,1,0.16);
+}
+
+#navbar{
+    width: 100%;
+    height: auto;
+   margin: 0;
+    padding: 0; 
+ 
+    
+}
+
+.logo{
+    width: 185px;
+    height: 35px;
+    margin-left: 57px;
+    margin-top: 42px;
+    margin-right: 110px;
+}
+
+.middle{
+    float: left;
+    display: flex;
+    padding: 47px 0px;
+    flex-direction: row;
+   
+}
+
+.nav-link{
+    padding-right: 20px;
+   
+}
+.nav-link a{
+    text-decoration: none;
+    color: gray;
+    padding-right: 54px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+ .nav-link img{
+    margin-right: 20px;
+}
+
+.nav-link span{
+    position: relative;
+    bottom: 7px;
+   
+}
+
+.message{
+   
+    display: flex;
+    
+   
+    
+}
+
+.first-img{
+    margin-top: 47px;
+    padding-right:17px;
+    margin-left: 220px;
+    
+}
+
+.one{
+    position: relative;
+    bottom: 15px;
+    right: 12px;
+}
+
+.two{
+   position: relative;
+    bottom: 21px;
+    right: 15px; 
+}
+
+.second{
+    margin-top: 43px;
+    
+}
+
+.fas{
+    margin-left: 14px;
+}
+
+.profile-text a{
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 18px;
+}
+
+
+.desnaStrana2 {
+			height: 125px;
+			display: flex;
+			align-items: right;
+			align-content:flex-end;
+			justify-content: flex-end;
+    
+    margin-right: 40px;
+		}
+
+ .mobilnaNavigacijskaTraka{
+			background-color: #ffffff;
+			height: 125px;
+			margin-top:-45px;
+         margin-bottom: 20px;
+     border-bottom: 1px solid #00a3fa;
+		}
+
+
+.mobilnaNavigacijskaTraka, .hidden{
+	display: none;
+	visibility: hidden;
+}
+.navContent{
+			
+			display: flex;
+			justify-content:flex-end;
+		}
+
+
+.specMenu{
+		display: block;
+   
+	}
+	.specMenu div{
+		margin-top: 15px;
+      
+	}
+
+.specMenu div a .zadnji{
+    margin-bottom: 10px;
+}
+
+.zadnji{
+    margin-bottom: 20px;
+}
+    
+
+.menuLinkovi a{
+			text-decoration: none;
+            width: 100px;
+			font-weight: 600;
+    		color: rgb(54,54,56);
+    		margin-right: 15px;
+		}
+		.menuLinkovi a:hover{
+			color: #00a3fa;
+		}
+		a.active:link{
+		    color:#FFFFFF;
+		}
+
+.container2{
+    width: 65%;
+    display: block;
+    height: 433px;
+   margin-left: auto;
+    margin-right: auto;
+     box-shadow: -0.9px 0.5px 43px 0 rgba(35,31,32, 0.15);
+
+    
+
+}
+
+.hidden1{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+.mapa{
+    width: 100%;
+    height: 433px;
+    margin-top: 58px;
+    
+}
+
+.auto-information{
+     position: absolute;
+  top: 180px;
+  left:17.5%;
+    height: 433px;
+    width: 400px;
+  z-index: 5;
+  background-color: black;
+    opacity: 0.77;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.auto{
+    margin-top: 68px;
+    z-index: 999;
+opacity: 1 !important;
+}
+
+.auto-title{
+    margin-top: 20px;
+    opacity: 0.62;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+.odakle i{
+    margin-top: 38px;
+    margin-left: 45px;
+}
+
+.odakle span{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    opacity: 0.74;
+    margin-left: 10px;
+}
+
+.odakle p{
+    margin-left: 76px;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: -6px;
+}
+
+.dokle{
+    width: 50%;
+}
+
+.dokle i{
+    margin-top: 38px;
+    margin-left: 50px;
+    color: #bababe;
+    opacity: 0.5;
+}
+
+.dokle h2{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    opacity: 0.74;
+    margin-left: 3px;
+    margin-top: 30px;
+ 
+}
+
+.dokle p{
+  font-size: 14px;
+    opacity: 0.5;
+    margin-top: -6px;
+    margin-left: 37px;
+}
+
+.vehicle-info{
+    margin-top: 30px;
+    width: 67%;
+    height: 291px;
+    float: left;
+    background-color: #ffffff;
+    display: block;
+}
+
+
+
+.vehicle-info-title{
+    font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 22px; 
+    margin-top: 22px;
+}
+
+.first{
+    margin-left: 55px;
+    margin-top: 41px;
+}
+
+.boldirano{
+    color: #2b2525;
+    font-weight: bold;
+    font-weight: 14px;
+    margin-bottom: 13px;
+}
+
+.svjetlo{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    color: #676163;
+    margin-bottom: 30px;
+}
+
+.second{
+    margin-left: 29px;
+    position: relative;
+    bottom: 2px;
+}
+
+.third{
+    margin-top: 41px;
+}
+
+.third p{
+    width: 151px;
+    height: 21px;
+    font-size: 10px;
+    color: #c0bdbe;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.fourth .okvir{
+    width: 206px;
+    height: 136px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.okvir img{
+    margin-left: 40px;
+    margin-top: 40px;
+   
+}
+
+.fourth button{
+    width: 148px;
+    height: 31px;
+    background-color: #ffffff;
+    border: 1px solid #f7ca18;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #75747c;
+    margin-left: 74px;
+    margin-top: 23px;
+}
+
+.additional-info{
+     margin-top: 30px;
+    width: 67%;
+    height: 291px;
+    float: left;
+    background-color: #ffffff;
+    display: block;
+}
+
+.additional-info-title{
+   font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 22px; 
+}
+
+.additional-text{
+    width: 93%;
+    height: 181px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px; 
+    color: #676163;
+    margin-top: 30px;
+}
+
+
+.bid-info{
+     margin-top: 30px;
+    width: 67%;
+    height: 159px;
+    margin-bottom: 150px;
+    float: left;
+    background-color: #ffffff;
+    display: block;
+}
+
+.bid-info-title{
+     font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 22px; 
+}
+
+.min-bid{
+    margin-top: 26px;
+    margin-left: 170px;
+}
+
+.min-bid .boldirano-bid{
+  color: #231f20;
+    font-weight: bold;
+    font-weight: 14px;  
+}
+
+.min-bid .odmakni{
+    margin-left: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #8c8789;
+}
+
+.your-bid{
+     margin-top: 26px;
+    margin-left: 203px;
+}
+
+.your-bid .boldirani-bid{
+     color: #231f20;
+    font-weight: bold;
+    font-weight: 14px; 
+}
+
+.your-bid .odmakni-input{
+    margin-left: 52px;
+    
+}
+
+.your-bid input{
+    width: 213px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+}
+
+.your-bid input:focus{
+    outline: 0;
+}
+
+.your-bid button{
+    width: 104px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: #43b9f9;
+    border: 3px solid rgba(0,163,250, 0.18);
+    color: white;
+    padding-right: 18px;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    margin-right: 150px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.your-bid button i{
+    position: relative;
+    right: 13px;
+    font-size: 13px;
+}
+.right-side1{
+    width: 30%;
+    height: 600px;
+    
+    float: right;
+    position: relative;
+    top: -141%;
+}
+.contact-info{
+    width: 318px;
+    height: 364px;
+    float: left;
+   border-radius: 10px;
+   margin-left: 38px;
+    background-color: #00a3fa;
+    
+}
+
+.contact-title{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    opacity: 0.85;
+    margin-top: 21px;
+    margin-left: 13px;
+    letter-spacing: 0.5px;
+}
+
+.contact-title .fa-check{
+    margin-left: 90px;
+    color: #7cec51;
+}
+
+.contact-title .smanjeno{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contact-info form{
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+.contact-info form>label {
+    color: white;
+    opacity: 0.52;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    
+}
+.contact-info form>h4{
+    color: white;
+    font-size: 14px;
+    padding-left: 22px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+.contact-info form>span{
+    color: white;
+    font-size: 14px;
+    padding-left: 22px;
+    top: 9px;
+    bottom: 20px;
+    position: relative;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  position: relative;
+  right: 10px;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:0.7em; /* Change the size of the stars */
+  /*color:#ccc;  Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star:hover > i.fa-star {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star:selected > i.fa-star {
+  color:#FF912C;
+}
+
+
+.send-msg{
+    width: 168px;
+    height: 39px;
+    display: block;
+    opacity: 0.47;
+    border-radius: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-top: 30px;
+    letter-spacing: 0.4px;
+    background-color: #00a3fa;
+    color:white !important;
+    border: 1px solid #ccc;
+
+    
+}
+
+.send-msg:focus{
+    outline: 0;
+}
+
+
+.route-info{
+    width: 318px;
+  height: 311px;
+  opacity: 0.73;
+  margin-top: 16px;
+  border-radius: 10px;
+  background-color: #9b59b6;
+
+  margin-left: 38px;
+    float: left;
+}
+
+
+.route-info-text{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    opacity: 0.85;
+    margin-top: 21px;
+    margin-left: 13px;
+    letter-spacing: 0.5px;
+}
+
+.route-info form{
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+.route-info form>label {
+    color: white;
+    opacity: 0.52;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    
+}
+
+.route-info form>h4{
+    color: white;
+    font-size: 14px;
+    padding-left: 22px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+.open-google{
+    width: 190px;
+  height: 39px;
+  opacity: 0.47;
+  
+  border-radius: 10px;
+   background-color: #9b59b6;
+    display: block;
+    border: 1px solid #ccc;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: white;
+  
+}
+
+.open-google:focus{
+    outline: 0;
+}
+ 
+
+ @media screen and (max-width:1860px){
+     .min-bid{
+    margin-top: 26px;
+    margin-left: 100px;
+}
+
+.your-bid{
+margin-left: 100px;
+}
+
+ }
+
+
+@media screen and (max-width: 1820px){
+    
+    .middle, .right-side, .profile{
+		display: none;
+		visibility: hidden;
+	}
+	.mobilnaNavigacijskaTraka{
+		display: block;
+		visibility: visible;
+	}
+
+    .auto-information{
+     position: absolute;
+  top: 175px;
+  left:17.5%;
+    height: 433px;
+    width: 400px;
+  z-index: 5;
+  background-color: black;
+    opacity: 0.77;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+
+.vehicle-info-title{
+    font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 14px; 
+    margin-top: 22px;
+}
+
+.first{
+    margin-left: 35px;
+    margin-top: 41px;
+}
+
+
+.second{
+    margin-left: 27px;
+    position: relative;
+    left: 8px;
+}
+
+
+
+.fourth .okvir{
+    
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.okvir img{
+    margin-left: 40px;
+    margin-top: 40px;
+   
+}
+
+.fourth button{
+    
+    margin-left: 59px;
+    margin-top: 23px;
+}
+
+.additional-info-title{
+   font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 14px;
+    margin-top: 22px; 
+}
+ 
+    
+}
+
+@media screen and (max-width:1780px){
+    
+.contact-info{
+    width: 318px;
+    height: 364px;
+    float: left;
+   border-radius: 10px;
+   margin-left: 10px;
+    background-color: #00a3fa;
+    
+}
+.route-info{
+    width: 318px;
+  height: 311px;
+  opacity: 0.73;
+  margin-top: 16px;
+  border-radius: 10px;
+  background-color: #9b59b6;
+
+  margin-left: 10px;
+    float: left;
+}
+}
+
+@media screen and (max-width:1600px){
+.contact-info{
+    width: 318px;
+    height: 364px;
+    float: left;
+   border-radius: 10px;
+   margin-left: 0px;
+    background-color: #00a3fa;
+    
+}
+.route-info{
+    width: 318px;
+  height: 311px;
+  opacity: 0.73;
+  margin-top: 16px;
+  border-radius: 10px;
+  background-color: #9b59b6;
+
+  margin-left: 0px;
+    float: left;
+}
+    
+.fourth .okvir{
+    width: 146px;
+    height: 106px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.okvir img{
+    margin-left: 13px;
+    margin-top: 25px;
+   
+}
+
+.fourth button{
+    width: 138px;
+    height: 28px;
+    background-color: #ffffff;
+    border: 1px solid #f7ca18;
+    border-radius: 15px;
+    font-size: 13px;
+    color: #75747c;
+    margin-left: 53px;
+    margin-top: 23px;
+}
+
+.fourth button>i{
+    position: relative;
+    right:11px;
+    top: 1.3px;
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:1640px){
+    .your-bid button{
+    
+    margin-right: 100px;
+    position: relative;
+    bottom: 25px;
+    
+}
+}
+
+@media screen and (max-width:1600px){
+    .contact-info{
+    width: 288px;
+    height: 364px;
+    float: left;
+   border-radius: 10px;
+   margin-left: 0px;
+    background-color: #00a3fa;
+    
+} 
+
+.route-info{
+    width: 288px;
+}
+}
+
+@media screen and (max-width:1540px){
+.your-bid button{
+    
+    margin-right: 50px;
+    position: relative;
+    bottom: 25px;
+    
+}
+}
+
+@media screen and (max-width:1350px){
+    
+    
+    .auto-information{
+     position: absolute;
+  top: 175px;
+  left:17.5%;
+    height: 433px;
+    width: 350px;
+  z-index: 5;
+  background-color: black;
+    opacity: 0.77;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  
+  line-height: 30px;
+  padding-left: 10px;
+}
+    
+    
+.auto-title{
+    margin-top: 20px;
+    opacity: 0.62;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+.odakle i{
+    margin-top: 38px;
+    margin-left: 30px;
+}
+
+
+
+.odakle p{
+    margin-left: 56px;
+ 
+}
+
+
+
+.dokle i{
+    margin-top: 38px;
+    margin-left: 40px;
+    color: #bababe;
+    opacity: 0.5;
+}
+
+.dokle p{
+  font-size: 14px;
+    opacity: 0.5;
+    margin-top: -6px;
+    margin-left: 37px;
+}
+
+.vehicle-info{
+    margin-top: 30px;
+    width: 90%;
+    height: 291px;
+    float: none;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.vehicle-info-title{
+    font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 22px; 
+    position: relative;
+    top: 22px;
+}
+
+.additional-info{
+     margin-top: 30px;
+    width: 90%;
+    height:331px;
+    float: none;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-info-title{
+   font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 25px;
+     position: relative;
+    top: 22px;
+} 
+.additional-text{
+    
+    margin-top: 40px;
+}
+
+.bid-info{
+     margin-top: 30px;
+    width: 90%;
+    height: 159px;
+    margin-bottom: 50px;
+    float: none;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bid-info-title{
+     font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 20px;
+    position: relative;
+    top: 22px;
+}
+
+
+.right-side1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: space-around;
+    margin:0;
+    float: none;
+    position: relative;
+    top: 0%;
+}
+
+
+.contact-info{
+    
+    height: 364px;
+   margin-left: 0;
+   border-radius: 10px;
+   margin-right: 10px;
+    background-color: #00a3fa;
+    
+}
+
+.route-info{
+   
+  height: 364px;
+  opacity: 0.73;
+  margin-top: 0px;
+  border-radius: 10px;
+  background-color: #9b59b6;
+
+  
+    float: left;
+}
+
+
+}
+
+@media screen and (max-width:1100px){
+    
+    
+.container2{
+    width: 90%;
+    display: block;
+    height: 433px;
+   margin-left: auto;
+    margin-right: auto;
+     box-shadow: -0.9px 0.5px 43px 0 rgba(35,31,32, 0.15);
+
+    
+
+}
+
+     
+    .auto-information{
+     position: absolute;
+  top: 175px;
+  left:2.5%;
+    height: 433px;
+    width: 320px;
+  z-index: 5;
+  background-color: black;
+    opacity: 0.77;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  
+  line-height: 30px;
+  padding-left: 10px;
+}
+    
+    
+.auto-title{
+    margin-top: 20px;
+    opacity: 0.62;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+.odakle i{
+    margin-top: 38px;
+    margin-left: 15px;
+}
+
+
+
+.odakle p{
+    margin-left: 36px;
+ 
+}
+
+
+
+.dokle i{
+    margin-top: 38px;
+    margin-left: 30px;
+    color: #bababe;
+    opacity: 0.5;
+}
+
+.dokle p{
+  font-size: 14px;
+    opacity: 0.5;
+    margin-top: -6px;
+    margin-left: 27px;
+}
+    
+    .fourth{
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:1038px){
+.your-bid button{
+    
+    margin-right: 20px;
+    position: relative;
+    bottom: 25px;
+    
+}
+}
+
+@media screen and (max-width:1003px){
+
+.vehicle-info{
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 451px;
+   
+    background-color: #ffffff;
+    display: block;
+}
+
+.vehicle-info-title{
+    
+}
+
+.first{
+  width: 33% !important;
+}
+
+ .pomakni-gore{
+position: relative;
+    bottom: 12px;
+}
+
+.svjetlo{
+   
+}
+
+.second{ 
+      width: 33% !important;
+}
+
+.third{
+      width: 20% !important;
+}
+
+.third p{
+  width: 100px;
+  display: block;
+}
+    
+    .fourth{
+       align-content: flex-start;
+    }
+
+.fourth .okvir{
+    float: none;
+    position: relative;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.okvir img{
+  
+   
+}
+
+.fourth button{
+margin-left: auto;
+margin-right: auto;
+position: relative;
+bottom: 30px;
+left: 35px;
+}
+
+
+.contact-title{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    opacity: 0.85;
+    margin-top: 21px;
+    margin-left: 13px;
+    letter-spacing: 0.5px;
+}
+
+.contact-title .fa-check{
+    margin-left: 70px;
+    color: #7cec51;
+}
+
+.contact-title .smanjeno{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contact-info form{
+    margin-left: 27px;
+    margin-top: 37px;
+}
+
+.route-info form{
+    margin-left: 27px;
+    margin-top: 37px;
+}
+
+
+.bid-info{
+     margin-top: 30px;
+    width: 90%;
+    height: 159px;
+    margin-bottom: 50px;
+    float: none;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bid-info-title{
+     font-size: 14px;
+    color: #4bc4f4;
+    font-weight: 600;
+    margin-left: 7px;
+    position: relative;
+    top: 22px;
+}
+
+
+.min-bid{
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.min-bid .boldirano-bid{
+  color: #231f20;
+    font-weight: bold;
+    font-weight: 14px;  
+}
+
+.min-bid .odmakni{
+    margin-left: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #8c8789;
+}
+
+.your-bid{
+     margin-top: 26px;
+    margin-left: 53px;
+}
+
+
+.your-bid .odmakni-input{
+    margin-left: 52px;
+    
+}
+
+.your-bid input{
+    width: 213px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+}
+
+.your-bid input:focus{
+    outline: 0;
+}
+
+.your-bid button{
+    width: 104px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: #43b9f9;
+    border: 3px solid rgba(0,163,250, 0.18);
+    color: white;
+    padding-right: 18px;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+}
+
+@media screen and (max-width:890px){
+.min-bid{
+    margin-top: 32px;
+    margin-left: 20px;
+}
+.your-bid{
+    margin-left: 20px;
+}
+}
+
+@media screen and (max-width:890px){
+.your-bid button{
+    display: block;
+    bottom: 0;
+}
+
+.your-bid input{
+    width: 213px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    display: block;
+    
+    position: relative;
+    left: 52px;
+    bottom: 25px;
+}
+
+.bid-info{
+    height: 189px;
+}
+
+.container2{
+    width: 95%;
+    display: block;
+    height: 433px;
+   margin-left: auto;
+    margin-right: auto;
+     box-shadow: -0.9px 0.5px 43px 0 rgba(35,31,32, 0.15);
+
+    
+
+}
+
+.vehicle-info{
+    margin-top: 30px;
+    width: 90%;
+    
+}
+
+.additional-info{
+    width: 90%; 
+}
+
+.bid-info{
+    width: 90%;
+}
+.right-side1{
+    width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width:780px){
+    
+    
+.auto-informacije{
+    width: 100%;
+    height: 433px;
+    background-color: black;
+  opacity: 0.77;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  line-height: 30px;
+  padding-left: 10px;
+    margin-top: 15px;
+    
+    
+}
+
+.odakle1{
+   position: relative;
+    right: 50px;
+}
+    
+    .odakle1 p{
+        position: relative;
+        left: 10px;
+    }
+
+.auto-title1{
+    font-size: 22px;
+}
+    
+    .dokle1 i{
+        position: relative;
+        top: 8px;
+        right: 9px;
+    }
+    .dokle1 p{
+        position: relative;
+        left: 13px;
+    }
+    
+    .hidden1{
+    display: block;
+    visibility: visible;
+}
+    
+    .auto-information{
+        display: none;
+        visibility: hidden;
+    }
+    
+}
+
+
+@media screen and (max-width:660px){
+
+    .contact-title{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .route-info-text{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:600px){
+
+.contact-title .fa-check{
+    margin-left: 40px;
+    color: #7cec51;
+}
+
+.additional-info{
+    height: 372px;
+}
+}
+
+@media screen and (max-width:560px){
+    .right-side1{
+        flex-direction: column;
+        height: 700px;
+        margin-bottom: 70px;
+    }
+    .contact-info{
+        margin-left: auto;
+        margin-right: auto;
+        height: 424px !important;
+    }
+.route-info{
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        
+}
+.contact-title .fa-check{
+    margin-left: 100px;
+    color: #7cec51;
+}
+}
+
+@media screen and (max-width:540px){
+    .first{
+        width: 25%;
+        margin-left: 15px;
+    }
+
+    .second{
+        width: 25%;
+        margin-left: 10px;
+
+    }
+
+    .third{
+        width:18%;
+        position: relative;
+        right: 10px;
+    }
+}
+ 
+
+@media screen and (max-width:500px){
+.additional-info{
+    height: 452px;
+}
+    
+    
++
+.auto-title1{
+    font-size: 19px;
+}
+    
+   +
+
+}
+
+
+@media screen and (max-width:440px){
+.your-bid input{
+    width: 163px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+}
+    
+.odakle1{
+   position: relative;
+    right: 40px;
+    font-size: 14px;
+}
+    
+    .odakle1 p{
+        position: relative;
+        left: 10px;
+    }
+
+.auto-title1{
+    font-size: 17px;
+}
+    .dokle1{
+        font-size: 14px;
+    }
+    
+    .dokle1 i{
+        position: relative;
+        top: 8px;
+        right: 9px;
+    }
+    .dokle1 p{
+        position: relative;
+        left: 13px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .additional-info{
+    height: 522px;
+}
+
+.first{
+    font-size: 12px;
+}
+
+.second{
+    font-size: 12px;
+
+}
+
+.third{
+    font-size: 12px;
+}
+    
+    .third p{
+        width: 80px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .your-bid .odmakni-input{
+    margin-left: 22px;
+    
+}
+
+    .min-bid .odmakni{
+    margin-left: 24px;
+    font-size: 14px;
+   
+}
+    .your-bid button{
+        margin-right: 31px;
+    display: block;
+    bottom: 0;
+}
+    
+}

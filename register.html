@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoship | REGISTER</title>
+    
+       <link rel="stylesheet" href="style-rg.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <section id="rg-naslovna">
+        
+        <div class="row">
+          <div class="col-md-first">
+              
+              <div class="logo">
+                
+                 <a href="/index.html" style="cursor: default;"> <img src="loginImg/autoship-logo.png" alt=""  ></a>
+                  </div>
+                  <h2 class="naslovna-heading">Autoship is a platform that connects shippers with carriers.</h2>
+                  
+                  <h4 class="naslovna-copyright">... or register with social media</h4>
+                  
+                  <a href="https://facebook.com"  target="_blank" class="fb-button"><img src="loginImg/facebook-ikonica.png" alt=""></a>
+                  <a href="https://plus.google.com" target="_blank" class="google-button"><img src="loginImg/google-ikonica.png" alt="" class="g-ikonica"> Register with Google</a>
+              
+          </div>
+          
+          <div class="col-md-second">
+            <h5 class="account-heading" style="float:right">Existing user? Click here to <a href="/login.html">Sign In</a></h5>
+            
+            <div class="signin-heading">
+                <h2 class="signin-h2">Create an account</h2>
+                <p class="signin-p">Start using Autoship and save your money and time</p>
+            </div>
+           
+				
+			<input type="hidden" name="name" value="Private Handler">							
+			<input type="radio" id="privateRadio" class="hidden" name="vrsta" value="private">
+  			<input type="radio" id="handlerRadio" class="hidden" name="vrsta" value="handler">
+           
+           <div class="opis-posla">
+               <div class="box-kucice-carriers">
+                  <div class="box-kucica-icon" style="width: 23px; height: 20px; border: 1px solid #e5e7e9;">
+                   <i class="fas fa-check neaktivna  aktivanCheckbox" style="padding-left: 2px;"></i></div>
+                  <div class="box-kucica-slika"><img id="private" src="loginImg/kamioncic.png" alt=""></div>
+                  <div class="box-kucica-text"><span>I'm carrier</span></div>
+               </div>
+               <div class="box-kucice-shippers">
+              <div class="box-kucica-icon" style="width: 23px; height: 20px; border: 1px solid #e5e7e9;">
+              <i class="fas fa-check neaktivna aktivanCheckbox" style="padding-left: 2px;"></i></div>
+               <div class="box-kucica-slika"><img id="handler" src="loginImg/ciko.png" alt=""></div>
+               <div class="box-kucica-text"><span>I'm shipper</span></div>
+
+ 
+               </div>
+           </div>
+           
+           <style>
+               .hidden{
+                   display: none;
+                   visibility: hidden;
+               }
+               .neaktivna{
+                   display: none;
+                   visibility: hidden;
+               }
+               
+              
+               
+               .aktivanCheckbox{
+                   color: #00a3fa;
+               }
+              </style>
+           
+           <div class="box-inputi" id="password">
+               <label for="">EMAIL</label>
+               <input class="email-input" type="text" placeholder="name@domain.com">
+               
+               <label for="">PASSWORD</label>
+               <input class="pass-input" type="password"  placeholder="create your password">
+               
+                   <div class="labels">
+                     <label class="label-name" for="">NAME</label>
+             <label class="label-surname" for="">SURNAME</label>
+                     
+                   </div>
+                     
+                    <div class="inputs">
+                    <div class="row1">
+                    <input type="text" placeholder="John" class="input-name">
+                    </div>
+                    <div class="row2">
+                     <input type="text" placeholder="Doe" class="input-surname">
+                     </div>
+            </div>
+               
+               <div class="terms-and-conditions">
+                   <input type="checkbox" name="checkbox" value="check" id="agree"/> I read and agree to <span>Terms and Conditions</span>
+               </div>
+               
+             <a href="/vozaci.html">  <input type="submit" id="register" value="Get started" ></a>
+               
+               <div class="social-network">
+                   <h3> Or register with social media</h3>
+                   
+                   <a class="fb" href="/"><img src="loginImg/facebook-ikonica.png" alt="" class="fikonica"></a>
+                   <a class="google" href="/"><img src="loginImg/google-ikonica.png" alt="" class="gikonica"></a>
+               </div>
+           </div>
+           
+          </div>
+      </div>
+        
+    </section>
+    
+       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    
+    <script type="text/javascript">
+    
+       $(document).ready(()=>{
+    $('.box-kucice-carriers').click(()=>{
+        if($('.box-kucice-carriers i').hasClass('neaktivna')){
+            $('.box-kucice-carriers i').removeClass('neaktivna')
+            $('.box-kucice-shippers i').addClass('neaktivna')
+
+            $('.box-kucice-carriers').css('border','1px solid #00a3fa')
+            $('.box-kucice-shippers').css('border','1px solid #e5e7e9')
+
+        }
+    });
+
+        $('.box-kucice-shippers').click(()=>{
+        if($('.box-kucice-shippers i').hasClass('neaktivna')){
+            $('.box-kucice-shippers i').removeClass('neaktivna')
+            $('.box-kucice-carriers i').addClass('neaktivna')
+
+            $('.box-kucice-shippers').css('border','1px solid #00a3fa')
+            $('.box-kucice-carriers').css('border','1px solid #e5e7e9')
+
+
+        }
+    });
+})
+        
+        
+        /*$(window).on('resize',()=>{
+            document.getElementById('password').focus();
+            location.href = '   #' + 'password';
+        });*/
+    </script>
+    
+</body>
+</html>
