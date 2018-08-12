@@ -1,0 +1,2462 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    float: left;
+}
+
+body {
+    line-height: 1;
+       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'HelveticaNeue';
+    src:local('HelveticaNeue.ttf'), url('HelveticaNeue.ttf') format('truetype');
+
+ }
+
+
+body{
+    max-width: 100%;
+    max-height: 1080px;
+    font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.container{
+      max-width: 1920px;
+    width: 100%;
+    height: 117px;
+    background-color: #ffffff;
+    padding-top: 0px;
+   display: block;
+    
+  
+    box-shadow: 0px 1px 3px 0 rgba(0,1,1,0.16);
+}
+
+#navbar{
+    width: 100%;
+    height: auto;
+   margin: 0;
+    padding: 0;
+ 
+    
+}
+
+.logo{
+    width: 185px;
+    height: 35px;
+    margin-left: 57px;
+    margin-top: 42px;
+    margin-right: 154px;
+}
+
+.middle{
+    float: left;
+    display: flex;
+    padding: 47px 0px;
+    flex-direction: row;
+   
+}
+
+.nav-link{
+    padding-right: 20px;
+   
+}
+.nav-link a{
+    text-decoration: none;
+    color: gray;
+    padding-right: 34px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+ .nav-link img{
+    margin-right: 20px;
+}
+
+.nav-link span{
+    position: relative;
+    bottom: 7px;
+   
+}
+
+
+.lijevi-pomak{
+    margin-left: 24px !important;
+}
+
+.message{
+   
+    display: flex;
+    
+   
+    
+}
+
+.first-img{
+    margin-top: 47px;
+    padding-right:17px;
+    margin-left: 270px;
+    
+}
+
+.one{
+    position: relative;
+    bottom: 15px;
+    right: 12px;
+}
+
+.two{
+   position: relative;
+    bottom: 21px;
+    right: 15px; 
+}
+
+.second{
+    margin-top: 43px;
+    
+}
+
+.fa-angle-down{
+    margin-left: 14px;
+}
+
+.profile-text a{
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 18px;
+}
+
+
+.desnaStrana2 {
+			height: 125px;
+			display: flex;
+			align-items: right;
+			align-content:flex-end;
+			justify-content: flex-end;
+    
+    margin-right: 40px;
+		}
+
+ .mobilnaNavigacijskaTraka{
+			background-color: #ffffff;
+			height: 125px;
+			margin-top:-48px;
+         margin-bottom: 10px;
+     border-bottom: 1px solid #00a3fa;
+		}
+
+
+.mobilnaNavigacijskaTraka, .hidden{
+	display: none;
+	visibility: hidden;
+}
+.navContent{
+			
+			display: flex;
+			justify-content:flex-end;
+		}
+
+
+.specMenu{
+		display: block;
+    
+		
+   
+	}
+	.specMenu div{
+		margin-top: 15px;
+      
+	}
+
+.specMenu div a .zadnji{
+    margin-bottom: 10px;
+}
+
+.zadnji{
+    margin-bottom: 20px;
+}
+    
+
+.menuLinkovi a{
+			text-decoration: none;
+    width: 100px;
+			font-weight: 600;
+    		color: rgb(54,54,56);
+    		margin-right: 15px;
+		}
+		.menuLinkovi a:hover{
+			color: #00a3fa;
+		}
+		a.active:link{
+		    color:#FFFFFF;
+		}
+
+
+#glavni-content{
+    width: 100%;
+    height: 980px;
+}
+
+
+.big-box{
+     width: 1000px;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+
+.plava-strana{
+    width: 160px;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+
+
+.plava-strana i{
+    font-size: 40px;
+    color: #ffffff;
+     
+    
+}
+.drugi-dio-plavo i{
+    margin-bottom: 30px !important;
+}
+
+.prvi-dio i{
+    font-size: 28px;
+}
+
+
+.drugi-dio1 i{
+    font-size: 28px;
+}
+
+.red{
+    float: left;
+    width: 840px;
+    height: 609px;
+    
+}
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+ 
+  letter-spacing: normal;
+  text-align: left;
+  color: #3897d9;
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+
+.resajzano{
+    display: none;
+    visibility: hidden;
+}
+
+.resajzano-opet{
+    display: none;
+    visibility: hidden;
+}
+
+.drugi-put-resize{
+    display: none;
+    visibility: hidden;
+}
+
+.posljednji-resize{
+    display: none;
+    visibility: hidden;
+}
+
+.siva-linija{
+    width: 760px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   
+    display: block;
+}
+
+.prvo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top: 64px;
+}
+
+.prvo-auto span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+
+.prvo-auto img{
+    margin-top: 26px;
+}
+
+.prvo-auto img:hover{
+    background-color: #d6d6d6;
+    opacity: 0.8;
+     transition: background 0.2s ease;
+}
+
+.drugo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 20px;
+}
+
+.drugo-auto img:hover{
+   background-color: #d6d6d6;
+    opacity: 0.8;
+    transition: background 0.2s ease;
+}
+
+.trece-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 50px;
+}
+
+
+.trece-auto img:hover{
+    background-color: #d6d6d6;
+    opacity: 0.8;
+     transition: background 0.2s ease;
+}
+
+.prvi-dio{
+    width: 50%;
+    float: left;
+}
+
+.input-forme{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.input-forme label{
+    width: 152px;
+  height: 11px;
+  
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.input-forme select{
+    margin-top: 15px;
+    width: 345px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.checkbox-dio{
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+input[type=checkbox]{
+    width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  
+  border: solid 1px #d8d8d8;
+}
+
+.regular-checkbox {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+	background-color: #11a0f8;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #ffffff;
+}
+
+.regular-checkbox:focus{
+    outline: 0;
+}
+
+
+.checkbox-dio span{
+    position: relative;
+    bottom: 8px;
+     width: 75px;
+  height: 10px;
+ margin-left: 7px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.button-dio{
+    width: 45%;
+    float: right;
+}
+.button-dio button{
+    float: right;
+    width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  bottom: 40px;
+  left: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+
+
+
+/*  DRUGI PAGE   */
+
+.prvo-auto input{
+    margin-top: 15px;
+    width: 345px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.checkbox-dio1{
+    margin-top: 50px;
+    font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+ 
+}
+
+.checkbox-dio1 .choose{
+ color: #7b7b7b;
+}
+
+.cetvrti-dio span{
+    font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #a0a0a0;
+}
+
+.cetvrti-dio button{
+    float: right;
+     width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  left:80px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+
+.prvo-auto1{
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-top: 64px;
+}
+
+.prvo-auto1 span{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+ 
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 761px;
+    max-width: 761px;
+    min-height: 216px;
+    max-height: 216px;
+     border-radius: 10px;
+     position: relative;
+     top: 11px;
+ 
+  border: solid 1px #d8d8d8;
+}
+
+.button-dio1{
+    margin-top: 42px;
+}
+
+.prvi-button label {
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+ 
+.prvi-button i{
+     font-size: 18px;
+  
+  font-style: normal;
+  font-stretch: normal;
+  position: relative;
+  right: 15px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a3e4;
+}
+
+.drugi-button label {
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.drugi-button select{ 
+      margin-top: 15px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.treci-button label{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.treci-button select{
+    margin-top: 15px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.cetvrti-dio1 button{
+    float: right;
+     width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  left:45px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+
+@media screen and (max-width:1820px){
+     .middle, .right-side, .profile{
+		display: none;
+		visibility: hidden;
+	}
+	.mobilnaNavigacijskaTraka{
+		display: block;
+		visibility: visible;
+	}
+
+
+}
+
+@media screen and (max-width:1220px){
+    .big-box{
+     width: 800px;
+  height: 609px;
+ 
+}
+
+.plava-strana{
+    width: 120px;
+    height: 609px;
+    float: left;
+  
+}
+    
+    
+.red{
+    float: left;
+    width: 680px;
+    height: 609px;
+    
+}
+    .mapa{
+        width: 100% !important;
+        position: relative;
+        right: 0px;
+    }
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 14px;
+  font-size: 24px;
+  
+ 
+}
+    
+    .red-naslov .lokacija{
+         width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 20px;
+  
+}
+    
+
+.siva-linija{
+    width: 640px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   
+    display: block;
+}
+    
+    .auto-forma{
+        width: 100%;
+    }
+
+    .drugi-dio{
+        position: relative;
+        left: 20px;
+    }
+    
+.prvo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 17px;
+    margin-top: 64px;
+}
+
+.prvo-auto span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+.street{
+     width: 33.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 0px;
+    margin-top: 64px;
+}
+
+.street span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+
+.prvo-auto img{
+    margin-top: 26px;
+}
+
+.drugo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 0px;
+}
+
+.trece-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 20px;
+}
+
+    
+    
+.input-forme{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.input-forme label{
+    width: 152px;
+  height: 11px;
+  
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+    
+    .treci-automobili{
+        width: 95% !important;
+    }
+
+.input-forme select{
+    margin-top: 15px;
+    width: 275px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.checkbox-dio{
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+    
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 645px;
+    max-width: 645px;
+    min-height: 186px;
+    max-height: 186px;
+     border-radius: 10px;
+     position: relative;
+     top: 11px;
+ 
+  border: solid 1px #d8d8d8;
+}
+
+    
+    
+.cetvrti-dio button{
+    float: right;
+     width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  left:50px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+
+    
+    
+.prvi-button label {
+    font-size: 14px;
+  
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+
+}
+ 
+.prvi-button i{
+     font-size: 18px;
+  
+  position: relative;
+  right: 15px;
+  
+}
+    
+    .treci-dio1{
+        margin-left: 20px !important;
+    }
+    
+}
+
+
+@media screen and (max-width:900px) { 
+    .big-box{
+     width: 700px !important;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+
+.plava-strana{
+    width: 90px !important;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+    
+    
+.red{
+    float: left;
+    width: 610px !important;
+    height: 609px;
+    
+}
+
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 23px;
+  font-size: 24px;
+  
+ 
+}
+    
+    .red-naslov .lokacija{
+         width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 11px;
+  position: relative;
+        right: 8px;
+}
+    
+
+.siva-linija{
+    width: 545px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   left: 10px;
+    display: block;
+}
+    
+    .original{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .resajzano{
+        
+        display: block;
+        visibility: visible;
+    }
+    
+        
+.cetvrti-dio button{
+    float: right;
+     width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  left:39px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+    .auto-forma{
+        width: 100%;
+    }
+
+
+.prvo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 11px;
+    bottom: 1px;
+    margin-top: 64px;
+}
+
+.prvo-auto span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  position: relative;
+    left: 7px;
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+.street{
+     width: 37.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 0px;
+    margin-top: 64px;
+}
+
+    
+   .street .span-street{
+        position: relative;
+        right: 7px;
+    }
+
+
+.prvo-auto img{
+    margin-top: 26px;
+}
+
+.drugo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 0px;
+}
+
+.trece-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 20px;
+}
+
+    
+    
+.input-forme{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.input-forme label{
+    width: 152px;
+  height: 11px;
+  
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+    
+    .treci-automobili{
+        width: 95% !important;
+    }
+
+.input-forme select{
+    margin-top: 15px;
+    width: 235px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.checkbox-dio{
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+    
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 579px;
+    max-width: 579px;
+    min-height: 166px;
+    max-height: 166px;
+     border-radius: 10px;
+     position: relative;
+     top: 11px;
+ 
+  border: solid 1px #d8d8d8;
+}
+
+    .prvi-button{
+        width: 29.3% !important;
+    }
+    
+    
+.prvi-button label {
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+ 
+.prvi-button i{
+     font-size: 18px;
+  
+  font-style: normal;
+  font-stretch: normal;
+  position: relative;
+  right: 15px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a3e4;
+}
+    
+    .drugi-button{
+        width:30.3% !important;
+        margin-left: 0px;
+        position: relative;
+        right: 0px;
+    }
+    
+    .treci-button{
+        width:27.3% !important;
+        margin-left: 0px !important;
+    }
+    
+    .treci-dio1{
+        margin-left: 20px !important;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:780px) {
+    
+     .big-box{
+     width: 560px !important;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+
+.plava-strana{
+    width: 70px !important;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+    
+    
+.red{
+    float: left;
+    width: 490px !important;
+    height: 609px;
+    
+}
+
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 18px;
+  font-size: 24px;
+  
+ 
+}
+    
+    .red-naslov .lokacija{
+         width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 16px;
+  
+}
+    
+
+.siva-linija{
+    width: 435px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   left: 10px;
+    display: block;
+}
+    
+    .original{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .resajzano{
+        
+        display: none;
+        visibility: hidden;
+    }
+    .resajzano-opet{
+        display: block;
+        visibility: visible;
+    }
+    
+    
+    .trece-auto .resajzano-opet{
+        position: relative;
+        right: 10px;
+    }
+        
+.cetvrti-dio button{
+    float: right;
+     width: 120px;
+  height: 39px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  left:39px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+    .auto-forma{
+        width: 100%;
+    }
+
+
+.prvo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 11px;
+    bottom: 1px;
+    margin-top: 64px;
+}
+
+.prvo-auto span{
+     width: 226px;
+  height: 14px;
+
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  position: relative;
+    left: 7px;
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+.street{
+     width: 43.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 0px;
+    margin-top: 64px;
+}
+
+.street span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+    
+    .street input{
+        width: 250px;
+    }
+
+
+.prvo-auto img{
+    margin-top: 26px;
+}
+
+.drugo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 0px;
+}
+
+.trece-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 20px;
+}
+
+    
+    
+.input-forme{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.input-forme label{
+    width: 152px;
+  height: 11px;
+  
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+    
+    .treci-automobili{
+        width: 95% !important;
+    }
+
+.input-forme select{
+    margin-top: 15px;
+    width: 175px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.checkbox-dio{
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+    
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 449px;
+    max-width: 449px;
+    min-height: 156px;
+    max-height: 156px;
+     border-radius: 10px;
+     position: relative;
+     top: 11px;
+    left: 7px;
+ 
+  border: solid 1px #d8d8d8;
+}
+
+    .prvi-button{
+        width: 29.3% !important;
+    }
+    
+    
+.prvi-button label {
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 120px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+    
+    .prvo-auto1 span{
+        position: relative;
+        left: 9px;
+    }
+ 
+.prvi-button i{
+     font-size: 18px;
+  
+  font-style: normal;
+  font-stretch: normal;
+  position: relative;
+  right: 15px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a3e4;
+}
+    
+    .drugi-button{
+        width:30.3% !important;
+        margin-left: 0px !important;
+        position: relative;
+        right: 0px;
+    }
+    
+    .drugi-button label{
+        font-size: 12px;
+        width: 160px;
+    }
+    .drugi-button select{
+         width: 120px;
+    }
+    
+    .treci-button{
+        width:27.3% !important;
+        margin-left: 0px !important;
+        left: 20px;
+    }
+    .treci-button select{
+        width: 120px;
+    }
+    
+    .treci-button label{
+        font-size: 12px;
+    }
+    
+    .treci-dio1{
+        margin-left: 20px !important;
+    }
+    .cetvrti-dio1 {
+        width: 85% !important;
+    }
+    
+    .cetvrti-dio1 button{
+        position: relative;
+        right: 45px;
+    }
+    
+}
+
+@media screen and (max-width:670px) {
+     
+     .big-box{
+     width: 510px !important;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+    
+    .prvi-box{
+        height: 800px !important;
+    }
+    .prva-plava-strana{
+        height: 800px !important;
+    }
+   
+
+.plava-strana{
+    width: 70px !important;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+    
+    
+.red{
+    float: left;
+    width: 440px !important;
+    height: 609px;
+    
+}
+    
+    .resajzano-opet{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .drugi-put-resize{
+        display: block;
+        visibility: visible;
+        
+    }
+    
+    .pomakni-gore{
+        position: relative;
+        bottom: 16px;
+    }
+
+.pomakni{
+        position: relative;
+        right: -13px;
+    }
+    
+    .pomakni-desno{
+        position: relative;
+        right: -17px;
+    }
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 18px;
+  font-size: 24px;
+  
+ 
+}
+    
+    .red-naslov .lokacija{
+         width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 16px;
+  
+}
+    
+
+.siva-linija{
+    width: 385px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   left: 10px;
+    display: block;
+}
+    
+   
+    
+    
+    .prvi-dio{
+        float: none !important;
+        width: 50%;
+        margin: auto !important;
+    }
+    
+    .drugi-dio{
+        float: none !important;
+        width: 50%;
+        margin: auto;
+        left: 0px;
+    }
+    
+        
+.cetvrti-dio button{
+    float: right;
+     width: 120px;
+  height: 39px;
+ 
+  position: relative;
+  left:39px;
+  bottom: 10px;
+  
+}
+    .auto-forma{
+        width: 100%;
+    }
+
+
+.prvo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 11px;
+    bottom: 1px;
+    margin-top: 64px;
+}
+
+.prvo-auto span{
+     width: 226px;
+  height: 14px;
+
+  
+  position: relative;
+    left: 7px;
+  
+}
+.street{
+     width: 43.3%;
+    margin: auto;
+    float: left;
+    position: relative;
+    right: 0px;
+    margin-top: 64px;
+}
+
+.street span{
+     width: 166px;
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #9e9e9e;
+}
+    
+    .street input{
+        width: 250px;
+    }
+
+
+.prvo-auto img{
+    margin-top: 26px;
+}
+
+.drugo-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 0px;
+}
+
+.trece-auto{
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    margin-top:104px;
+    position: relative;
+    left: 20px;
+}
+
+    
+ 
+.input-forme label{
+    width: 152px;
+  height: 11px;
+  
+  
+}
+    
+    .treci-automobili{
+        width: 95% !important;
+    }
+
+.input-forme select{
+    margin-top: 15px;
+    width: 225px;
+   
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+
+    
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 404px;
+    max-width: 404px;
+    min-height: 146px;
+    max-height: 146px;
+     position: relative;
+     top: 11px;
+    left: 7px;
+ 
+}
+
+    .prvi-button{
+        width: 31.3% !important;
+    }
+    
+    
+.prvi-button label {
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+    
+    .prvo-auto1 span{
+        position: relative;
+        left: 9px;
+    }
+ 
+
+    
+    .drugi-button{
+        width:30.3% !important;
+        margin-left: 0px !important;
+        position: relative;
+        right: -17px;
+        bottom: 12px;
+    }
+    
+    .drugi-button label{
+        font-size: 12px;
+        width: 130px;
+    }
+    .drugi-button select{
+         width: 100px;
+    }
+    
+    .treci-button{
+        width:27.3% !important;
+        margin-left: 0px !important;
+        left: 30px;
+    }
+    .treci-button select{
+        width: 100px;
+    }
+    
+    .treci-button label{
+        font-size: 12px;
+    }
+    
+    .treci-dio1{
+        margin-left: 20px !important;
+    }
+    .cetvrti-dio1 {
+        width: 85% !important;
+    }
+    
+    .cetvrti-dio1 button{
+        position: relative;
+        right: 45px;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+     .big-box{
+     width: 410px !important;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+   
+   
+
+.plava-strana{
+    width: 60px !important;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+    
+    .siva-linija{
+    width: 290px !important;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   left: 10px;
+    display: block;
+}
+    
+    
+.red{
+    float: left;
+    width: 350px !important;
+    height: 609px;
+    
+}
+    
+    .pomakni{
+        position: relative;
+        right: 3px;
+    }
+    
+    .pomakni-desno{
+        position: relative;
+        right: 13px;
+    }
+
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 18px;
+  font-size: 24px;
+  
+ 
+}
+    
+    
+
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 319px;
+    max-width: 319px;
+    min-height: 146px;
+    max-height: 146px;
+     position: relative;
+     top: 11px;
+    left: 7px;
+ 
+}
+
+.input-forme select{
+    margin-top: 15px;
+    width: 225px;
+  
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.input-forme {
+     position: relative;
+     right: 40px;
+}
+.prvi-button{
+    width: 28.3% !important;
+}
+    
+.prvi-button label {
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 80px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+    
+   
+ 
+
+    
+    .drugi-button{
+        width:30.3% !important;
+        margin-left: 0px !important;
+        position: relative;
+        right: -15px;
+        bottom: 12px;
+    }
+    
+    .drugi-button label{
+        font-size: 12px;
+        width: 130px;
+    }
+    .drugi-button select{
+         width: 80px;
+         font-size: 16px;
+    }
+    
+    .treci-button{
+        width:27.3% !important;
+        margin-left: 0px !important;
+        left: 24px;
+    }
+    .treci-button select{
+        width: 80px;
+        font-size: 16px;
+    }
+    
+    .treci-button label{
+        font-size: 12px;
+    }
+    
+    .button-dio button{
+    float: right;
+    width: 90px;
+  height: 33px;
+  border-radius: 19.5px;
+  background-color: #48a5ea;
+  border: solid 4px rgba(121, 190, 241, 0.55);
+  position: relative;
+  bottom: 40px;
+  left: 10px;
+  font-size: 14px;
+  color: #ffffff !important;
+  font-size: 600;
+}
+    
+    .cetvrti-dio button{
+        width: 90px;
+  height: 33px;
+        font-size: 14px;
+    }
+    
+    .cetvrti-dio1 button{
+        width: 90px;
+  height: 33px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:480px){
+ .big-box{
+     width: 310px !important;
+  height: 609px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+    margin-top: 161px;
+}
+    
+    
+   
+
+.plava-strana{
+    width: 50px !important;
+    height: 609px;
+    float: left;
+    background-color: #00a3e4;
+}
+    
+    .siva-linija{
+    width: 210px !important;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #d8d8d8;
+    margin: auto;
+    position: relative;
+    top: 35px;
+   left: 10px;
+    display: block;
+}
+    
+    .drugi-put-resize{
+        display: none;
+        visibility: hidden;
+        
+    }
+    
+    .posljednji-resize{
+        display: block;
+        visibility: visible;
+    }
+    
+    
+.red{
+    float: left;
+    width: 260px !important;
+    height: 609px;
+    
+}
+
+
+.red-naslov{
+    width: 220px;
+  height: 19px;
+  margin-top: 35px;
+    margin-left: 18px;
+  font-size: 20px;
+  
+ 
+}
+
+.street{
+    width: 200px;
+}
+
+.street input{
+    width: 160px;
+}
+    
+    .prvo-auto img{
+    margin-top: 8px;
+}
+    
+    .kamion-move{
+        position: relative;
+        right: 8px;
+    }
+
+
+.prvo-auto1 textarea{
+    float: left;
+    min-width: 232px;
+    max-width: 232px;
+    min-height: 136px;
+    max-height: 136px;
+     position: relative;
+     top: 11px;
+    left: 7px;
+ 
+}
+
+.nova-forma{
+    width: 100% !important;
+}
+
+.prvi-dio{
+    width: 70% !important;
+}
+
+.drugi-dio{
+    width: 70% !important;
+}
+
+.input-forme select{
+    margin-top: 15px;
+    width: 225px;
+  
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+
+.input-forme {
+     position: relative;
+     right: 40px;
+}
+.prvi-button{
+    width: 50.3% !important;
+    float: none !important;
+    margin: auto !important;
+    
+}
+    
+.prvi-button label {
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+
+.prvi-button input{
+      margin-top: 15px;
+    width: 110px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  color: #333333;
+}
+    
+   
+ .treci-dio1{
+     margin-left: 0px !important;
+ }
+
+
+    
+    .drugi-button{
+        width:50% !important;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+        position: relative;
+        top: 15px;
+        float: none !important;
+        right: 0px;
+        bottom: 0px;
+        margin: auto !important;
+    }
+    
+    .drugi-button label{
+        font-size: 12px;
+        width: 130px;
+    }
+    .drugi-button select{
+         width:110px;
+         font-size: 16px;
+    }
+    
+    .treci-button{
+        width:50% !important;
+        margin-left: 0px !important;
+        float: none !important;
+        left: 0px !important;
+        top: 30px !important;
+        margin: auto !important;
+    }
+    .treci-button select{
+        width: 110px;
+        font-size: 16px;
+    }
+    
+    .treci-button label{
+        font-size: 12px;
+    }
+
+.cetvrti-dio{
+    width: 80% !important;
+}
+
+.cetvrti-dio button{
+    position: relative;
+    top: -5px;
+}
+
+.cetvrti-dio1 button{
+    float: none;
+    position: relative;
+    right: 5px !important; 
+    margin-left: 31px !important;
+}
+
+
+.checkbox-dio{
+    margin-left: 20px !important;
+}
+
+}
+
+@media screen and (max-width:420px){
+
+ .logo{
+   
+    margin-left: 27px;
+    
+}   
+
+.desnaStrana2{
+    margin-right: 60px;
+}
+}

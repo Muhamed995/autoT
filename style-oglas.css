@@ -258,6 +258,8 @@ body{
 
 .second{
     margin-top: 43px;
+     position: relative; 
+    left: 17px;
     
 }
 
@@ -484,7 +486,7 @@ opacity: 1 !important;
 }
 
 .second{
-    margin-left: 29px;
+    margin-left: 0px;
     position: relative;
     bottom: 2px;
 }
@@ -1715,7 +1717,7 @@ left: 35px;
     
 .odakle1{
    position: relative;
-    right: 40px;
+    right: 30px;
     font-size: 14px;
 }
     
@@ -1729,6 +1731,8 @@ left: 35px;
 }
     .dokle1{
         font-size: 14px;
+        position: relative;
+        left: 14px;
     }
     
     .dokle1 i{
@@ -1768,10 +1772,19 @@ left: 35px;
 }
 
 @media screen and (max-width:375px){
+    
+    .logo{
+   
+    margin-left: 27px;
+    
+}
     .your-bid .odmakni-input{
     margin-left: 22px;
     
 }
+    .additional-info-title{
+        margin-left: 0px;
+    }
 
     .min-bid .odmakni{
     margin-left: 24px;

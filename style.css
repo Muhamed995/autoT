@@ -2112,6 +2112,25 @@ hr.style1{
 */
 
 @media screen and (max-width:960px){
+ 
+  .all {
+    width: 85%;
+
+    height: auto;
+    margin: 0 auto !important;
+    margin-left: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+}
+
+.signupbutton {
+    
+    margin-bottom: 100px;
+
+
+}
+
 
 .col-4-copy1{
     float: left;
@@ -2124,6 +2143,8 @@ hr.style1{
 }
 
 @media screen and (max-width: 851px){
+
+   
   .verify h3{
         font-size: 42px;
         font-weight: bold;
@@ -2223,6 +2244,7 @@ hr.style1{
 }
 
 @media screen and (max-width: 772px){
+    
     .heading{
         margin-left: 0px;
         
@@ -2241,6 +2263,8 @@ hr.style1{
 
 @media screen and (max-width: 687px){
   
+
+
     .simple-start {
    
 
