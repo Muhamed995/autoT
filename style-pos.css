@@ -1226,6 +1226,7 @@ auto1-informacije .fa-gavel{
     display: block;
     margin-left: 8px;
     margin-right: 3px;
+    border-left: 2px solid #eeeeee;
     
 }
 
@@ -1278,7 +1279,7 @@ auto1-informacije .fa-gavel{
     height: 144px;
     float: left;
     display: block;
-    
+    border-left: 2px solid #eeeeee;
     margin-right: 3px;
     
 }
@@ -1330,6 +1331,7 @@ auto1-informacije .fa-gavel{
     width: 165px;
     height: 144px;
     float: left;
+    border-left: 2px solid #eeeeee;
     
 }
 
